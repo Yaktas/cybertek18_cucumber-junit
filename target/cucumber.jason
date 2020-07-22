@@ -1,0 +1,2199 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3307000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:37:44.337Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search functionality title verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-title-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1387000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User searches \"Steve Jobs\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User should see \"Steve Jobs\" in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_should_see_in_the_wiki_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 188000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:37:49.138Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Search functionality header verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-header-verification",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 921000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "User searches \"Steve Jobs\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User should see \"Steve Jobs\" in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 217000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:37:50.306Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Search functionality header verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-header-verification;example-test-data-for-wikipedia-search;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 835000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User searches \"Steve Jobs\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User should see \"Steve Jobs\" in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_should_see_in_the_wiki_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User should see \"Steve Jobs\" in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2087000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User should see \"Steve Jobs\" in the image header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheImageHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          },
+          {
+            "name": "@wikiScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:37:53.578Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Search functionality header verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-header-verification;example-test-data-for-wikipedia-search;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 527000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User searches \"John Travolta\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Travolta\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User should see \"John Travolta\" in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Travolta\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_should_see_in_the_wiki_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User should see \"John Travolta\" in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Travolta\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2021000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User should see \"John Travolta\" in the image header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Travolta\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheImageHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          },
+          {
+            "name": "@wikiScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:37:56.414Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Search functionality header verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-header-verification;example-test-data-for-wikipedia-search;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 902000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User searches \"Albert Einstein\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Albert Einstein\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User should see \"Albert Einstein\" in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Albert Einstein\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_should_see_in_the_wiki_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User should see \"Albert Einstein\" in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Albert Einstein\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2030000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User should see \"Albert Einstein\" in the image header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Albert Einstein\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheImageHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          },
+          {
+            "name": "@wikiScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 243000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:37:59.764Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Search functionality header verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-header-verification;example-test-data-for-wikipedia-search;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 653000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User searches \"Keanu Reeves\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Keanu Reeves\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User should see \"Keanu Reeves\" in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Keanu Reeves\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_should_see_in_the_wiki_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User should see \"Keanu Reeves\" in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Keanu Reeves\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2097000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User should see \"Keanu Reeves\" in the image header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Keanu Reeves\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheImageHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          },
+          {
+            "name": "@wikiScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:38:02.861Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Search functionality header verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-header-verification;example-test-data-for-wikipedia-search;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 673000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User searches \"Bruce Lee\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bruce Lee\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User should see \"Bruce Lee\" in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bruce Lee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_should_see_in_the_wiki_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User should see \"Bruce Lee\" in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bruce Lee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2019000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User should see \"Bruce Lee\" in the image header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bruce Lee\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheImageHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          },
+          {
+            "name": "@wikiScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:38:05.872Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Search functionality header verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-header-verification;example-test-data-for-wikipedia-search;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 507000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User searches \"Dua Lipa\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dua Lipa\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User should see \"Dua Lipa\" in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dua Lipa\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_should_see_in_the_wiki_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User should see \"Dua Lipa\" in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dua Lipa\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2025000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User should see \"Dua Lipa\" in the image header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dua Lipa\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheImageHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          },
+          {
+            "name": "@wikiScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:38:08.706Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Search functionality header verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-header-verification;example-test-data-for-wikipedia-search;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1106000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User searches \"Thomas Edison\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thomas Edison\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User should see \"Thomas Edison\" in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thomas Edison\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_should_see_in_the_wiki_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User should see \"Thomas Edison\" in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thomas Edison\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2233000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User should see \"Thomas Edison\" in the image header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thomas Edison\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheImageHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          },
+          {
+            "name": "@wikiScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the Wiki home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 255000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the Wikipedia home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_is_on_the_wikipedia_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-21T21:38:12.238Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Search functionality header verification",
+        "description": "",
+        "id": "wiki-title-and-search-verifications;search-functionality-header-verification;example-test-data-for-wikipedia-search;9",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 616000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User searches \"Sam Heughan\" in the wiki search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sam Heughan\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_searches_in_the_wiki_search_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User should see \"Sam Heughan\" in the wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sam Heughan\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.user_should_see_in_the_wiki_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User should see \"Sam Heughan\" in the main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sam Heughan\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2034000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User should see \"Sam Heughan\" in the image header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sam Heughan\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheImageHeader(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          },
+          {
+            "name": "@wikiScenarioOutline"
+          }
+        ]
+      }
+    ],
+    "name": "Wiki title and search verifications",
+    "description": "",
+    "id": "wiki-title-and-search-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/WikiSearch.feature",
+    "tags": [
+      {
+        "name": "@wiki",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
